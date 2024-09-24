@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'indeciso=entregavel_3.indeciso:main',
+            'console=simulado1.console:main',
         ],
     },
 )
